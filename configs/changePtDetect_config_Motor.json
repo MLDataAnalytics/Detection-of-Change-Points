@@ -1,0 +1,20 @@
+{
+  "exp_name": "changePtDetect_hcp_motor",
+  "train_data": "/cbica/home/lihon/comp_space/code_share/LSTM_change_pt_detect/example_data/MOTOR_LR_train.mat",
+  "is_training": "False",
+  "model_output": "/cbica/home/lihon/comp_space/code_share/LSTM_change_pt_detect/results/hcp_motor_lr_model",
+  "test_data": "/cbica/home/lihon/comp_space/code_share/LSTM_change_pt_detect/example_data/MOTOR_LR_test.mat",
+  "test_output_dir": "/cbica/home/lihon/comp_space/code_share/LSTM_change_pt_detect/results/hcp_motor_lr_test",
+  "num_epochs": 20,
+  "num_iter_per_epoch": 10000,
+  "learning_rate": 0.001,
+  "decay_steps": 50000,
+  "decay_rate": 0.1,
+  "batch_size": 8,
+  "step_num": 284,
+  "fea_num": 90,
+  "num_hidden_layers": 2,
+  "hidden_num": 256,
+  "dropout_keep_rate": 1.0,
+  "max_to_keep": 5
+}
